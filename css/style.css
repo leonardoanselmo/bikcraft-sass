@@ -940,9 +940,9 @@ img {
 }
 
 .footer_contato ul li {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 14px;
   line-height: 20px;
-  font-family: Georgia, "Times New Roman", serif;
 }
 
 .footer_redes ul li {
@@ -1009,7 +1009,7 @@ img {
 .missao_sobre ul li {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .foto-equipe {
@@ -1111,10 +1111,10 @@ img {
 .form label {
   display: block;
   color: #FFF;
+  margin-bottom: 4px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
   line-height: 25px;
-  margin-bottom: 4px;
 }
 
 .form input {
@@ -1126,8 +1126,9 @@ img {
   padding: 7px 10px;
   margin-bottom: 10px;
   outline: none;
-  font-size: 14px;
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .form textarea {
@@ -1140,8 +1141,9 @@ img {
   padding: 7px 10px;
   margin-bottom: 20px;
   outline: none;
-  font-size: 14px;
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .form button {
@@ -1163,9 +1165,9 @@ img {
 
 .orcamento_dados span {
   display: block;
-  font-size: 18px;
-  line-height: 30px;
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .orcamento_dados span:nth-of-type(2) {
@@ -1179,6 +1181,7 @@ img {
 .orcamento_dados ul li {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 14px;
+  line-height: 20px;
   padding: 10px 15px;
 }
 
@@ -1203,11 +1206,11 @@ img {
 
 .quote_clientes p {
   text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
   line-height: 25px;
-  font-style: italic;
-  margin-bottom: 20px;
 }
 
 .quote_clientes cite {
@@ -1291,10 +1294,10 @@ img {
 
 .contato_form label {
   display: block;
+  margin-bottom: 4px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
   line-height: 25px;
-  margin-bottom: 4px;
 }
 
 .contato_form input {
@@ -1305,8 +1308,9 @@ img {
   padding: 7px 10px;
   margin-bottom: 10px;
   outline: none;
-  font-size: 14px;
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .contato_form textarea {
@@ -1318,8 +1322,9 @@ img {
   padding: 7px 10px;
   margin-bottom: 20px;
   outline: none;
-  font-size: 14px;
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .contato_form button {
@@ -1341,9 +1346,9 @@ img {
 
 .contato_dados span {
   display: block;
-  font-size: 18px;
-  line-height: 30px;
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .contato_dados span:nth-of-type(even) {
