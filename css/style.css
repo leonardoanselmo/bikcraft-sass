@@ -1,33 +1,4 @@
 @charset "UTF-8";
-/* ==========================================================================
-   Reset
-   ========================================================================== */
-/**
- * Remove anchor text-decoration
- */
-a {
-  text-decoration: none;
-}
-
-/**
- * Remove list-style
- */
-ol, ul {
-  list-style: none;
-}
-
-html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
-
-h1, h2, h3, h4, h5, h6, p, a, ul {
-  font-size: 1em;
-  font-weight: normal;
-}
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -405,6 +376,35 @@ table {
 td,
 th {
   padding: 0;
+}
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+/**
+ * Remove anchor text-decoration
+ */
+a {
+  text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */
+ol, ul {
+  list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+  font-size: 1em;
+  font-weight: normal;
 }
 
 *, *:before, *:after {
@@ -990,6 +990,32 @@ img {
   animation-name: fadeInDown;
 }
 
+.interna_sobre {
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.missao_sobre {
+  padding-top: 60px;
+}
+
+.missao_sobre p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+}
+
+.missao_sobre ul li {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.foto-equipe {
+  padding-top: 20px;
+}
+
 .interna_produtos {
   background: url("../img/bg-produtos.jpg") no-repeat center;
   background-size: cover;
@@ -1478,28 +1504,3 @@ img {
     margin-bottom: 40px;
   }
 } /* Final do estilo para smartphone */
-.interna_sobre {
-  background: url("../img/bg-sobre.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.missao_sobre {
-  padding-top: 60px;
-}
-
-.missao_sobre p {
-  font-size: 18px;
-  line-height: 25px;
-  margin-bottom: 1em;
-  padding-right: 60px;
-}
-
-.missao_sobre ul li {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.foto-equipe {
-  padding-top: 20px;
-}
