@@ -52,8 +52,7 @@
 }
 
 .contato_dados h3{
-	font-size: 18px;
-	line-height: 25px;
+	@include tipo-1(18);
 	text-transform: uppercase;
 	color: $amarelo;
 	font-weight: bold;
